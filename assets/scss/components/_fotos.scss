@@ -1,0 +1,24 @@
+.imgGaleria{
+    border-radius: map-get($borderR, 25);
+    object-fit: $fit;
+    padding-top: nth($padding, 1);
+    padding: nth($padding, 3);
+}
+.img-5{
+    object-position: nth($position, 2);
+}
+.img-9{
+    object-position: nth($position, 2);
+}
+.imgFotos{
+    transition: nth($transition, 2);
+    border-radius: map-get($borderR, 25);
+    object-fit: $fit;
+    padding-top: nth($padding, 1);
+    padding: nth($padding, 3);
+}
+.imgFotos:hover{
+    padding: 0;
+    transform: scale(1.05);
+    box-shadow: map-get($box-shadow, normal);
+}
